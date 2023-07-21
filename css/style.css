@@ -1,0 +1,27 @@
+.nav {
+    --bs-nav-link-color: #F5E9CF;
+}
+
+.nav-pills {
+    --bs-nav-pills-link-active-bg: #F5E9CF;
+    --bs-nav-pills-link-active-color: #4D455D; 
+}
+
+#header-test{
+    --bs-border-color: #F5E9CF;
+}
+.card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+body {
+    background: url(../images/forza-retro.png)
+}
+h1, h2, h3, p{
+    color: #F5E9CF;
+}
+
+h2 {
+    font-family: 'Satisfy', cursive;
+}
