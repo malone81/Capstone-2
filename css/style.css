@@ -7,21 +7,41 @@
     --bs-nav-pills-link-active-color: #4D455D; 
 }
 
-#header-test{
+.border-bottom, .border-top {
     --bs-border-color: #F5E9CF;
 }
 .card-cover {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-  }
+}
+
+.accordion {
+    --bs-accordion-bg: #F5E9CF;
+    --bs-accordion-border-color: black;
+    --bs-accordion-btn-focus-border-color: black;
+    --bs-accordion-active-color: black;
+    --bs-accordion-active-bg: #e9647961;
+    --bs-accordion-btn-focus-box-shadow: none;
+}
+
 body {
     background: url(../images/forza-retro.png)
 }
-h1, h2, h3, p{
+
+h1, h2, h3, p, .text-color-check{
     color: #F5E9CF;
 }
 
 h2 {
     font-family: 'Satisfy', cursive;
 }
+
+.card {
+    --bs-card-bg: #F5E9CF;
+}
+
+.card-body > p {
+    color: black;
+}
+
